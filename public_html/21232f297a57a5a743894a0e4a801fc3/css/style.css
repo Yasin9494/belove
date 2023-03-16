@@ -1,0 +1,89 @@
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+main {
+    padding: 80px 0;
+}
+
+.error-msg {
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.success-msg {
+    color: #2bc540;
+    margin-bottom: 10px;
+}
+
+.error {
+    border-color: #dc3545;
+}
+
+.table td,
+.table th {
+    white-space: nowrap;
+}
+
+#formShow {
+    position: relative;
+}
+#formShow h3 {
+    margin-bottom: 30px;
+}
+
+.data-list {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.modal_bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+.modal {
+    display: block;
+    position: absolute;
+
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, 0%);
+
+    background-color: #fff;
+
+    width: 400px;
+    height: auto;
+}
+
+.modal-inner {
+    padding: 25px;
+}
+.modal-inner-input {
+    margin-bottom: 15px;
+}
+.modal-inner-input:last-child {
+    margin-bottom: 0px;
+}
+
+#back_main {
+    cursor: pointer;
+    color: rgb(58, 58, 252);
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.visit-new{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+
+    background-color: #ff000063;
+    border-radius: 100%;
+}
